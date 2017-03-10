@@ -1,0 +1,26 @@
+{
+    "name": "agutils/lightweightstorage",
+    "description": "Simple key-value storage",
+    "type": "library",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel",
+            "email": "daniel@allgigs.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "agutils\\": "src/agutils/" }
+    },
+    "autoload-dev": {
+       "psr-4": {
+          "agutils\\lightweightstorage\\": "tests/"
+        }
+    }
+}
