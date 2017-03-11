@@ -5,6 +5,8 @@ This simple micro-package defines a key-value store, with the main reason for ex
 
 So, instead of repeatedly re-inventing a method static cache mechanism (see below), this can achieve the "is that thing in the cache?" "no? add it" "yes? use it" in one-or-two lines.
 
+[![Build Status](https://travis-ci.org/oconnedk/LightweightStore.svg?branch=master)](https://travis-ci.org/oconnedk/LightweightStore)
+
 Why?
 ----
 
