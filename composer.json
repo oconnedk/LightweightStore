@@ -1,12 +1,13 @@
 {
-    "name": "agutils/lightweightstorage",
+    "name": "agutils/lightweightstore",
     "description": "Simple key-value storage",
     "type": "library",
     "require": {
         "php": ">=5.4"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.0"
+        "phpunit/phpunit": "^4.0",
+        "squizlabs/php_codesniffer": "^2.8"
     },
     "license": "MIT",
     "authors": [
@@ -20,7 +21,7 @@
     },
     "autoload-dev": {
        "psr-4": {
-          "agutils\\lightweightstorage\\": "tests/"
+          "agutils\\lightweightstore\\": "tests/"
         }
     }
 }

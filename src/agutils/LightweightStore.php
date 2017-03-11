@@ -10,6 +10,8 @@ namespace agutils;
 
 class LightweightStore
 {
+    const NULL_PLACEHOLDER = '>[NULL]<';
+
     /** @var array */
     private $store = [];
 
@@ -77,6 +79,7 @@ class LightweightStore
      */
     protected static function makeKey($key)
     {
+        $key = $key === null ? static::NULL_PLACEHOLDER : $key; // prevents PHP coalescing NULL to ''
         return print_r($key, true);
     }
 }
