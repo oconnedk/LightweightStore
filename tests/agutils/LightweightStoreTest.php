@@ -145,5 +145,4 @@ class LightweightStoreTest extends \PHPUnit_Framework_TestCase
         $store->add($key, $key);
         return $seenIt;
     }
-
 }
