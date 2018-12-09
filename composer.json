@@ -24,5 +24,16 @@
        "psr-4": {
           "agutils\\lightweightstore\\": "tests/"
         }
+    },
+    "scripts": {
+      "test": [
+        "composer install",
+        "./vendor/phpunit/phpunit/phpunit tests/"
+      ],
+      "psr2": [
+        "composer install",
+        "./vendor/bin/phpcs --config-set default_standard PSR2",
+        "./vendor/bin/phpcs src/ tests/"
+      ]
     }
 }

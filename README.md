@@ -53,25 +53,31 @@ Installation
 
 See: [Composer Installation](https://getcomposer.org/download/)
 
-    composer install
+Edit `composer.json`:
+
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "git@github.com:oconnedk/LightweightStore.git"
+      }
+    ],
+
+Then:
+
+    composer require oconnedk/LightweightStore ^1.0 
 
 Unit Tests
 ----------
 
-    ./vendor/phpunit/phpunit/phpunit - tests
-
+    composer test
 
 Coding Standard
 ---------------
 
 All coding should comply with the [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md), enforced by [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer).
 
-Setting the standard to PSR-2:
-
-    vendor/bin/phpcs --config-set default_standard PSR2
-
 Checking for compliance:
 
-    vendor/bin/phpcs src/ tests/
+    composer psr2
 
 
