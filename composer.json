@@ -1,5 +1,5 @@
 {
-    "name": "agutils/lightweightstore",
+    "name": "oconnedk/lightweightstore",
     "description": "Simple key-value storage",
     "type": "library",
     "homepage": "https://github.com/oconnedk/LightweightStore",
