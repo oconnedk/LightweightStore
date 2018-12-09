@@ -49,7 +49,7 @@ Have a look at the [unit tests](/tests/agutils/LightweightStoreTest.php) for exa
 Installation
 -------------
 
-###Composer Installation
+### Composer Installation
 
 See: [Composer Installation](https://getcomposer.org/download/)
 
